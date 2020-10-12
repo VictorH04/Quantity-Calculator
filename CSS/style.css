@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kalkulator {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: gainsboro;
+    color: #000;
+}
+
+.kalkulator-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.kalkulator-item > input {
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 5px;
+}
